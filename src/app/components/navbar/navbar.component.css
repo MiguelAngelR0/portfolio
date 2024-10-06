@@ -1,0 +1,19 @@
+.header {
+  color: var(--text-color);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.header a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
+}
+.header span {
+  color: var(--main-color);
+}
+
+.header a:hover,
+.header a.active {
+  color: var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+}/*# sourceMappingURL=navbar.component.css.map */
